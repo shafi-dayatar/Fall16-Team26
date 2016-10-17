@@ -1,0 +1,15 @@
+Doubts -> App Monitors data(voice/text), but does it convert data to text?
+       -> App pushes data(voice/text) will it send data as text or voice? if voice what about latency issue?
+          data transfer rate?
+       -> which part(App/Backend) detects user, i.e dentifies user voice, for e.g if we four are having conversation
+          then will app try to detect user by voice or would it just send the data to server and server would do the work?
+       -> Would we require training dataset to detect user? if yes how much is enough?
+       -> Text to speach done at the client or server side?
+       -> Takes a searchable voice query to fetch the data from the server!!!
+       -> When searching data(voice/text) from database or getting data(voice/text), what will it return? 
+          exact part for whole voice/text
+       -> will it try to makes sense and give further searching on what is one saying? i.e do we analyase the voice text 
+          and find important keywords for faster retrieval 
+       -> Do we need to have api for push/search data? which language we would be using?
+          Flask and python?
+       -> Graphdb seems to be appropriate this! Can retrive data almost as we needed.
